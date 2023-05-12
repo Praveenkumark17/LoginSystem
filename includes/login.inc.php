@@ -38,7 +38,7 @@ if (isset($_POST['login-submit']))
 				elseif ($checkpass == true) 
 				{
 				    session_start();
-				    $_SESSION['userID']  = $row['idusers'];
+				    $_SESSION['userID']  = $row['id'];
 				    $_SESSION['useruid'] = $row['uidusers'];
 
 				    header("Location: ../index.php?login=success");
