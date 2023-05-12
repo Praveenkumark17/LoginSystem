@@ -1,0 +1,86 @@
+body
+  {
+    background-image:url("img/vintage-ornamental-flowers-background_52683-28040.jpg");
+    margin: 0;
+  }
+.nav1 
+  {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+.x
+  {
+    display: inline;
+  }
+.y
+  {
+    display: inline;
+  }
+#B
+  {
+   
+    float: right;
+  }
+
+ #A a
+   {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+#A a:hover:not(.active)
+  {
+     background-color: #000000;
+     color: white;
+   }
+img
+  {
+     max-width: auto;
+     max-height: 16px;
+     overflow: auto;
+   }
+.active 
+  {
+      background-color: white;
+  }
+ #B a
+   {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+input
+{
+  margin-right: 10px;
+  margin-top: 7px;
+  padding: 6px;
+  font-size: 17px;
+  border-radius: 5px;
+  border-color: black;
+}
+button
+{
+  padding: 6px 10px;
+  margin-right: 10px;
+  background-color: #555;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button.c:hover ,button.d:hover,#B a:hover
+  {
+    background-color: #000000;
+    color: white;
+  }
+
+
+ 
